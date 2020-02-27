@@ -8,6 +8,9 @@
         </war>
     </target>
 
+     <target name="deploywar" depends="warfile">
+        <copy file="helloworld.war" todir="/home/hari/tomcat7/webapps"> </copy>
+    </target>
 
 
 </project>
